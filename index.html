@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/262a284e5d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Dhyankumar</span><br> Patel form USA</h1>
+            </div>
+        </div>
+    </div>
+<!-- ---------------About-------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="./images/user_1.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores cupiditate maxime, repellendus recusandae eius quam pariatur autem, et asperiores vitae est corporis molestiae adipisci. Praesentium quam nisi voluptatem. Ipsam, beatae.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web DevelopmentX</span><br>Desiging Web/app interfaces</li>
+                            <li><span>App Development</span><br>Desiging Web/app interfaces</li>
+                            <li><span>Languages</span><br>C, C++, Python, Java, Javascript</li>
+                            <li><span>Framework</span><br>Express.js, Node.js</li>
+                            <li><span>Problem Solving</span><br></li>
+                            <li><span>Git</span><br></li>
+                            <li><span>Database</span><br>MySQL, MONGODB, Postgre</li>
+                            <li><span>ChatGPT</span><br></li>
+                            <li><span>Intrapersonal Skills</span><br>Keen Listener, Effective Communicater, Team Player, Critical Thinking, Time Management, Adaptibility</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Internship</span><br>TCR Innovation</li>
+                            <li><span>2022 - Internship</span><br>Oasis Infobyte</li>
+                            <!-- <li><span>2020 Development</span><br>Hackathon</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <!-- <li><span>2020</span><br>HSC</li> -->
+                            <li><span>2024</span><br>B.E Information Technology</li>
+                            <li><span>2026</span><br>M.S Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------services------------------------------ -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Publised IEEE Research Papers</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Prompt Engineering Using Artificial Intelligence</h2>
+                    <h3>Publication: IJARCCE</h3>
+                    <p>For artificial intelligence (AI) to reach its full potential, prompt engineering is essential, especially for
+                        interactive AI and platform development. These abstract highlights the importance of chain prompting, AI, and prompts
+                        as a whole by examining the complex relationship between them. A carefully worded prompt can act as the basis for
+                        creating interesting and contextually appropriate interactions in the field of conversational AI. In order to get the required
+                        responses from AI models like GPT-3, prompt engineering requires precisely modifying the prompts. This produces
+                        discussions that are more relevant. Chain processing, on the other hand, promotes natural discourse flow by deftly
+                        connecting questions and answers. Effective platform design is based on the symbiotic interaction between prompt
+                        engineering and chain processing, which improves user experiences across a range of applications. We navigate the
+                        dynamic environment of generative AI.</p>
+                    <a href="https://ijarcce.com/papers/prompt-engineering-using-artificial-intelligence/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Enhancing Prompt Engineering Application using Artificial Intelligence</h2>
+                    <h3>Publication: IJETT</h3>
+                    <p>The optimization of prompts stands as a fundamental element driving the comprehensive evolution of artificial intelligence (AI), particularly within the expansive domains of interactive AI and platform development. This abstract intricately probes the multifaceted interplay among chain prompting, AI functionality, and the artistry involved in prompt construction, accentuating their inherent and consequential interconnections. Meticulously designed prompts form the bedrock, fostering nuanced, contextually resonant, and captivating interactions, significantly manifest within conversational AI landscapes. The precise tailoring of prompts assumes a pivotal role in soliciting targeted responses from sophisticated AI models such as GPT-3, ensuring discourse imbued with elevated relevance and depth. Simultaneously, the strategic orchestration of chain processing intricately weaves a tapestry of seamless, natural dialogue, skillfully interlinking inquiries, and responses. The symbiotic fusion of prompt engineering and chain processing serves as the cornerstone for architecting impactful platform design, enriching, and refining user experiences across a myriad of diverse applications. This explorative discourse adeptly navigates the dynamic and evolving terrain innate to the realm of generative AI, spotlighting the paramount significance of prompt optimization in sculpting and enhancing the fabric of AI capabilities and interactions.</p>
+                    <a href="https://www.ijett.in/index.php/IJETT/article/view/755">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>ENHANCING INTERACTIVE AI THROUGH PROMPT ENGINEERING AND CHAIN PROMPTING: A COMPREHENSIVE MODEL</h2>
+                    <h3>Publication: Industrial Engineering Journal</h3>
+                    <p>For artificial intelligence (AI) to reach its full potential, prompt engineering is essential, especially
+                        for interactive AI and platform development. These abstract highlights the importance of chain
+                        prompting, AI, and prompts as a whole by examining the complex relationship between them. A
+                        carefully worded prompt can act as the basis for creating interesting and contextually appropriate
+                        interactions in the field of conversational AI. In order to get the required responses from AI models
+                        like GPT-3, prompt engineering requires precisely modifying the prompts. This produces discussions
+                        that are more relevant. Chain processing, on the other hand, promotes natural discourse flow by deftly
+                        connecting questions and answers. Effective platform design is based on the symbiotic interaction
+                        between prompt engineering and chain processing, which improves user experiences across a
+                        range of applications. We navigate the dynamic environment of generative AI.</p>
+                    <a href="http://www.journal-iiie-india.com/1_apr_24/7.6_apr.pdf">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+<!-- ---------------------------------Portfolio---------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work-1.png" >
+                <div class="layer">
+                    <h3>Blog Website</h3>
+                    <p>This website connects you to the talented people around the world.
+                        Go visit today.
+                    </p>
+                    <a href="https://github.com/DhyanKumarPatel/FA24WDP"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-2.png" >
+                <div class="layer">
+                    <h3>Spotify clone</h3>
+                    <p>Spoof website of spotify.
+                    </p>
+                    <a href="https://github.com/DhyanKumarPatel/Spotify_spoof"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-3.png" >
+                <div class="layer">
+                    <h3>Chat Buddy</h3>
+                    <p>Create a personalized character to chat with. Make changes use creativity for fun learnings
+                        Go visit today.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------------Contact--------------------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> dhyanp92@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 845-419-9638</p>
+                <div class="social-icons">
+                    <a href="https://github.com/DhyanKumarPatel"><i class="fab fa-github"></i></a>
+                    <!-- <a href=""><i class="fab fa-twitter-square"></i></a> -->
+                    <!-- <a href=""><i class="fab fa-instagram"></i></a> -->
+                    <a href="https://www.linkedin.com/in/dhyankumar-patel-b52441234/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="./images/My_CV.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Meassage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Dhyankumar.</p>
+    </div>
+ </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            } 
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzIkUvwr5ujkHWIpMUuBzoHw7wi7vPKJL5ll7spAVAuV4Tk-RwW7w6lYYSG5awjDxIG/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
